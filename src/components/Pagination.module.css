@@ -1,0 +1,56 @@
+.Pagination {
+  height: 3rem;
+  display: grid;
+  place-content: center;
+  box-shadow: 0 0 1rem #4c4975cc;
+}
+
+.Pagination button {
+  background-color: #211e46dd;
+  color: white;
+  padding: 0.4rem;
+  cursor: pointer;
+  margin: 0 0.25rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  height: 2rem;
+}
+
+.Pagination button:hover {
+  background-color: #211e46;
+}
+
+.Pagination span {
+  padding: 0 0.25rem;
+}
+
+.Pagination input {
+  width: 5rem;
+  text-align: right;
+  padding: calc(0.4rem);
+  margin: 0 0.25rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  border: solid 1px #4c4975cc;
+  height: 2rem;
+}
+
+@media (max-width: 960px) {
+  .Pagination button {
+    padding: 0.6rem 0.3rem;
+    margin: 0 0.1rem;
+  }
+
+  .Pagination button:hover {
+    background-color: #211e46;
+  }
+
+  .Pagination span {
+    padding: 0 0.1rem;
+  }
+
+  .Pagination input {
+    padding: 0.55rem 0.3rem;
+    margin: 0 0.1rem;
+  }
+}
